@@ -1,0 +1,5 @@
+Voce errou. Tente novamente!
+Resposta incorreta, mas nao desista e tente outra vez!
+Voce ainda nao acertou. Tente outra vez!
+Tu e o cara, tenta de novo!
+Voce vai conseguir!

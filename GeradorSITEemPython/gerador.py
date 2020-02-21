@@ -1,0 +1,12 @@
+arquivo = open('pagina1.html', 'w')
+titulo = input('Digite o título da página: ')
+texto1 = input('Digite um texto: ')
+link1 = input('Digite um link: ')
+nome1 = input('Digite um nome para esse site: ')
+link2 = input('Digite outro link: ')
+nome2 = input('Digite um nome para esse site: ')
+
+arquivo.write('<!DOCTYPE html> \n<html lang="pt-br"> \n<head> \n    <meta charset="UTF-8"> \n    <title>'''+titulo+'''</title>\n</head>\n''')
+arquivo.write('<body> \n    <header> \n        <h1>'''+texto1+'''</h1> \n    </header> \n''')
+arquivo.write('    <section> \n        <a href="'''+link1+'''">'''+nome1+'''</a></br> \n''')
+arquivo.write('        <a href="'''+link2+'''">'''+nome2+'''</a> \n    </section> \n</body> \n</html>''')
